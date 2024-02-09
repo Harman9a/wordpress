@@ -1,0 +1,70 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  45. ADMIN BAR CSS START
+/*----------------------------------------*/
+
+.admin-bar{
+    & .offcanvas__area {
+        margin-top: 32px;
+    }
+    & .header__transparent{
+      margin-top: 32px;
+    }
+
+    & .header__sticky.header-sticky{
+      margin-top: 32px;
+    }
+
+    .cartmini__area{
+      margin-top: 32px;
+    }
+    .offcanvas__full  {
+      margin-top:32px;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+
+  .admin-bar .offcanvas__area {
+      margin-top:0;
+  }
+  .admin-bar .offcanvas__full  {
+      margin-top:0;
+  }
+  .admin-bar .header__transparent{
+    margin-top: 46px;
+  }
+
+  .admin-bar .header__sticky.header-sticky{
+    margin-top: 0;
+  }
+  .cartmini__area{
+    margin-top: 46px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+
+  .admin-bar .offcanvas__area {
+      margin-top: 46px;
+  }
+  .admin-bar .offcanvas__full  {
+    margin-top:46px;
+}
+  .admin-bar .header__transparent{
+    margin-top: 46px;
+  }
+
+  .admin-bar .header__sticky.header-sticky{
+    margin-top: 46px;
+  }
+  .cartmini__area{
+    margin-top: 46px;
+  }
+}
+

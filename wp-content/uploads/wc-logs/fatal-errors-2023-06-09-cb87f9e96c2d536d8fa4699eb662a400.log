@@ -1,0 +1,13 @@
+2023-06-09T05:35:30+00:00 CRITICAL Uncaught Error: Class "Etn\Core\Migration\Migration" not found in /home3/techie1b/iamtechienew.techiespreview.website/wp-content/plugins/wp-event-solution/bootstrap.php:67
+Stack trace:
+#0 /home3/techie1b/iamtechienew.techiespreview.website/wp-content/plugins/wp-event-solution/eventin.php(134): Etn\Bootstrap->init()
+#1 /home3/techie1b/iamtechienew.techiespreview.website/wp-includes/class-wp-hook.php(308): Wpeventin->initialize_modules('')
+#2 /home3/techie1b/iamtechienew.techiespreview.website/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /home3/techie1b/iamtechienew.techiespreview.website/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /home3/techie1b/iamtechienew.techiespreview.website/wp-settings.php(486): do_action('plugins_loaded')
+#5 /home3/techie1b/iamtechienew.techiespreview.website/wp-config.php(96): require_once('/home3/techie1b...')
+#6 /home3/techie1b/iamtechienew.techiespreview.website/wp-load.php(50): require_once('/home3/techie1b...')
+#7 /home3/techie1b/iamtechienew.techiespreview.website/wp-admin/admin-ajax.php(22): require_once('/home3/techie1b...')
+#8 {main}
+  thrown in /home3/techie1b/iamtechienew.techiespreview.website/wp-content/plugins/wp-event-solution/bootstrap.php on line 67
+

@@ -1,0 +1,161 @@
+@use '../utils' as *;
+
+/*----------------------------------------*/
+/*  21. INSTAGRAM CSS START
+/*----------------------------------------*/
+
+.instagram{
+    $self : &;
+    &__item{
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+
+        &::after{
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--tp-common-black);
+            visibility: hidden;
+            opacity: 0;
+            @extend %tp-transition;
+        }
+        &:hover{
+            &::after{
+                opacity: .6;
+                visibility: visible;
+            }
+
+            #{$self}{
+                &__btn{
+                    top: 50%;
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    &__btn{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        @include transform(translate(-50%, -50%));
+        visibility: hidden;
+        opacity: 0;
+        @extend %tp-transition;
+        z-index: 1;
+    }
+    &__slider-active{
+        & .zoom-instagram-widget__item{
+            border-radius: 0;
+        }
+
+        & .slick-list{
+            margin: 0 -6px;
+        }
+
+        & .slick-slide{
+            & > div{
+                margin: 0 6px;
+            }
+        }
+    }
+    &__open-icon{
+
+        & .zoom-instagram-widget__item{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: var(--tp-common-black);
+                visibility: hidden;
+                opacity: 0;
+                @include transition(.3s);
+            }
+            & .zoom-instagram-widget__item-inner-wrap{
+                & .zoom-instagram-icon-wrap{
+                    & > a{
+                        display: inline-block;
+                        position: absolute;
+                        top: 70%;
+                        left: 50%;
+                        width: 80px;
+                        height: 80px;
+                        z-index: 1;
+                        line-height: 76px;
+                        border: 2px solid rgba($color: #fff, $alpha: .3);
+                        text-align: center;
+                        @include transform(translate(-50%, -50%));
+                        border-radius: 50%;
+                        color: var(--tp-common-white);
+                        visibility: hidden;
+                        opacity: 0;
+
+                        &:hover{
+                            background-color: var(--tp-common-white);
+                            border-color: var(--tp-common-white);
+                            color: var(--tp-common-black);
+                        }
+                        &::after{
+                            position: absolute;
+                            content: "\f16d";
+                            font-family: "Font Awesome 6 Brands";
+                            color: currentColor;
+                            left: 50%;
+                            top: 0;
+                            font-size: 24px;
+                            @include transform(translate(-50%, 0));
+                            
+                        }
+                    }
+                }
+            }
+            
+            &:hover{
+                &::after{
+                    opacity: 0.6;
+                    visibility: visible;
+                }
+                & .zoom-instagram-widget__item-inner-wrap {
+                    & .zoom-instagram-icon-wrap{
+                        & > a{
+                            top: 50%;
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.tp-instagram-btn{
+    font-size: 24px;
+    color: var(--tp-common-white);
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 76px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+
+    &:hover{
+        color: var(--tp-common-black);
+        border-color: transparent;
+        background-color: var(--tp-common-white);
+    }
+}

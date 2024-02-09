@@ -1,0 +1,16 @@
+2023-06-06T11:52:43+00:00 CRITICAL Uncaught Error: Attempt to assign property "page_template" on null in /home3/techie1b/iamtechienew.techiespreview.website/wp-includes/post.php:4590
+Stack trace:
+#0 /home3/techie1b/iamtechienew.techiespreview.website/wp-includes/post.php(4817): wp_insert_post(Array, false, true)
+#1 /home3/techie1b/iamtechienew.techiespreview.website/wp-content/plugins/elementor/includes/db.php(235): wp_update_post(Array)
+#2 /home3/techie1b/iamtechienew.techiespreview.website/wp-content/plugins/elementor/core/base/document.php(1272): Elementor\DB->save_plain_text(7409)
+#3 /home3/techie1b/iamtechienew.techiespreview.website/wp-content/plugins/elementor/core/base/document.php(753): Elementor\Core\Base\Document->save_elements(Array)
+#4 /home3/techie1b/iamtechienew.techiespreview.website/wp-content/plugins/elementor/core/documents-manager.php(545): Elementor\Core\Base\Document->save(Array)
+#5 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 /home3/techie1b/iamtechienew.techiespreview.website/wp-content/plugins/elementor/core/common/modules/ajax/module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 /home3/techie1b/iamtechienew.techiespreview.website/wp-includes/class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 /home3/techie1b/iamtechienew.techiespreview.website/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 /home3/techie1b/iamtechienew.techiespreview.website/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /home3/techie1b/iamtechienew.techiespreview.website/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in /home3/techie1b/iamtechienew.techiespreview.website/wp-includes/post.php on line 4590
+

@@ -1,0 +1,216 @@
+
+---Downloaded files---
+The import files for: Home Main were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = https://iamtechienew.techiespreview.website
+Data file = /home3/techie1b/iamtechienew.techiespreview.website/wp-content/themes/harry/sample-data/contents-demo.xml
+Widget file = /home3/techie1b/iamtechienew.techiespreview.website/wp-content/themes/harry/sample-data/widget-settings.json
+Customizer file = /home3/techie1b/iamtechienew.techiespreview.website/wp-content/themes/harry/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Custom HTML - No Title - Imported
+Categories - Categories - Imported
+TP Sidebar Posts Image -  Recent Post  - Imported
+Tag Cloud - Tags - Imported
+
+Services Sidebar : 
+
+TP Services List - No Title - Imported
+Harry Service Sidebar Contact - Get a free quote - Imported
+Text - No Title - Imported
+
+Product Sidebar : 
+
+Text - No Title - Imported
+Filter Products by Price - Price - Imported
+
+Footer 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer 2 : 
+
+Navigation Menu - Quick Link - Imported
+
+Footer 3 : 
+
+Navigation Menu - Resources - Imported
+
+Footer 4 : 
+
+Custom HTML - Downloads - Imported
+
+Footer Style 2 : 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Style 2 : 2 : 
+
+Navigation Menu - Quick Link - Imported
+
+Footer Style 2 : 3 : 
+
+Navigation Menu - Resources - Imported
+
+Footer Style 2 : 4 : 
+
+Harry Footer Posts No Thumb - Trending Post - Imported
+
+Footer Style 3 : 1 : 
+
+Text - No Title - Imported
+
+Footer Style 3 : 2 : 
+
+Navigation Menu - Quick Links - Imported
+
+Footer Style 3 : 3 : 
+
+Navigation Menu - Resources - Imported
+
+Footer Style 3 : 4 : 
+
+Harry Footer Posts Thumb - Recent Post - Imported
+
+Footer Style 4 : 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Style 4 : 2 : 
+
+Navigation Menu - Company - Imported
+
+Footer Style 4 : 3 : 
+
+Custom HTML - Get in Touch - Imported
+
+Footer Style 5 : 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Style 5 : 2 : 
+
+Navigation Menu - Quick Link - Imported
+
+Footer Style 5 : 3 : 
+
+Navigation Menu - Resources - Imported
+
+Footer Style 5 : 4 : 
+
+Custom HTML - Contact Us - Imported
+
+Footer Style 6 : 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Style 6 : 2 : 
+
+Navigation Menu - Quick Link - Imported
+
+Footer Style 6 : 3 : 
+
+Navigation Menu - Resources - Imported
+
+Footer Style 6 : 4 : 
+
+Text - Newsletter - Imported
+
+Footer Style 7 : 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Style 7 : 2 : 
+
+Navigation Menu - Quick Links - Imported
+
+Footer Style 7 : 3 : 
+
+Navigation Menu - Resources - Imported
+
+Footer Style 7 : 4 : 
+
+Text - Newsletter - Imported
+
+Footer Style 8 : 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Style 8 : 2 : 
+
+Custom HTML - Contact Us - Imported
+
+Footer Style 8 : 3 : 
+
+Navigation Menu - Quick Link - Imported
+
+Footer Style 8 : 4 : 
+
+Instagram Widget by WPZOOM (Legacy) - Photo Gallery - Imported
+
+Footer Style 9 : 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Style 9 : 2 : 
+
+Navigation Menu - Quick Links - Imported
+
+Footer Style 9 : 3 : 
+
+Navigation Menu - Resources - Imported
+
+Footer Style 9 : 4 : 
+
+Navigation Menu - Support - Imported
+
+Footer Style 9 : 5 : 
+
+Custom HTML - Talk To Us - Imported
+
+Footer Style 12 : 1 : 
+
+Text - No Title - Imported
+
+Footer Style 12 : 2 : 
+
+Navigation Menu - Quick Link - Imported
+
+Footer Style 12 : 3 : 
+
+Navigation Menu - Resources - Imported
+
+Footer Style 12 : 4 : 
+
+Custom HTML - Contact - Imported
+
+give-forms-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+TP Services List - No Title - Imported to Inactive
+Harry Service Sidebar Contact - Get a free quote - Imported to Inactive
+Custom HTML - No Title - Imported to Inactive
+
+
+
+---Importing customizer settings---
+Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file.
+
+---ocdi/after_import---
+

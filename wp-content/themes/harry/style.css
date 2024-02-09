@@ -1,0 +1,236 @@
+/*!
+Theme Name: Harry
+Theme URI: https://www.weblearnbd.net/wp/harry/
+Author: Theme_Pure
+Author URI: https://themeforest.net/user/theme_pure/portfolio
+Description: Harry – Creative Agency & Portfolio WordPress Theme
+Version: 1.1.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: harry
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*-------------css------------*/
+
+.techiesyears .history__list-item {
+    margin-bottom: 10px;
+}
+.techiesyears .history__list-dot span {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 4px;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(180deg, #0071C5 0%, #0071C5 100%);
+    box-shadow: 0px 1px 2px rgba(14, 53, 49, 0.2);
+    border-radius: 50%;
+}
+.techiesyears section.history__area.pt-30.pb-140.tp-el-section .container {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.techiesyears .history__list-content::after {
+    position: absolute;
+    content: "";
+    left: -30px;
+    top: 22px;
+    width: 1px;
+    height: 100%;
+    background-color: #EAEAEF;
+}
+.techiesyears .history__thumb-wrapper.d-sm-flex.pr-70 {
+    margin: 50px 0 0 0;
+}
+.techiesyears .pr-90 {
+    padding-right: 0;
+}
+.btnstechiess span.elementor-button-icon.elementor-align-icon-right {
+    position: absolute;
+    right: 10.9pc;
+}
+button.historycstmss {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 9px;
+    border-radius: 10px;
+	font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.elementor-66 .elementor-element.elementor-element-3aa788b .owl-nav .owl-prev {
+    right: 90px !important;
+    top: -82px !important;
+    margin: 0 63px 0 0;
+    border: 1px solid #000000;
+    left: inherit !important;
+}
+ .elementor-66 .elementor-element.elementor-element-3aa788b .owl-nav .owl-next {
+    right: 93px;
+    left: auto;
+	top: -82px !important;
+    border: 1px solid #000000;
+	 margin: 0 0px 0 0;
+}
+span.uc_classic_carousel_border {
+    display: none !important;
+}
+ .elementor-66 .elementor-element.elementor-element-3aa788b .owl-carousel .owl-nav .owl-next, .elementor-66 .elementor-element.elementor-element-3aa788b .owl-carousel .owl-nav .owl-prev {
+    top: 0px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    line-height: 49px;
+    font-size: 24px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.card_carousel_title {
+    margin: 15px 0 0 0 !important;
+}
+
+p.card_carousel_text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: -15px 0 0 0 !important;
+}
+.uc_classic_carousel_placeholder {
+    padding: 0 0 20px 0 !important;
+}
+
+.cstmcase .ue-carousel-item {
+    border: 1px solid transparent !important;
+    box-shadow: 7px 19px 5px -3px #f0f0f0;
+    border-radius: 8px !important;
+    background: #f0f0f0 !important;
+}
+span.borderss {
+    -webkit-text-stroke: 1px #fff;
+    color: black;
+    text-shadow: 2px 2px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+.techiesslider .slick-prev::before {
+    content: "←";
+	display:none !important;
+}
+button.historycstmsses {
+    width: 50%;
+    background: #fff;
+    color: #000;
+    padding: 9px;
+    border-radius: 10px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+	margin:0 auto !important;
+}
+.centertechies {
+    text-align: center;
+}
+.testimonial__rating:before {
+    content: "";
+    background: url(https://iamtechienew.techiespreview.website/wp-content/uploads/2023/06/image-15-3.png);
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 23px;
+}
+.testimonial__item-6 {
+    padding: 55px 30px 40px 30px;
+    background: var(--tp-common-white);
+    box-shadow: 0px 1px 2px rgba(13, 18, 30, 0.08);
+    position: relative;
+}
+.testimonialscstmss i.fa-regular.fa-chevron-right, .testimonialscstmss i.fa-regular.fa-chevron-left {
+    display: none;
+}
+.testimonialscstmss button.testimonial-6-button-prev, .testimonialscstmss button.testimonial-6-button-next {
+    position: relative;
+}
+.testimonialscstmss button.testimonial-6-button-prev:before {
+    content: "";
+    background: url(https://iamtechienew.techiespreview.website/wp-content/uploads/2023/06/Group-16441-1.png);
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 24px;
+    top: 17px;
+    left: 11px;;
+}
+.testimonialscstmss button.testimonial-6-button-next:before {
+    content: "";
+    background: url(https://iamtechienew.techiespreview.website/wp-content/uploads/2023/06/Group-16441.png);
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 24px;
+    top: 17px;
+    left: 11px;;
+}
+.testimonialscstmss .testimonial__slider-arrow-6 button:hover {
+    color: var(--tp-common-white);
+    background-color: transparent !important;
+    border-color: #000 !important;
+}
+.testimonialscstmss .testimonial__slider-arrow-6 button {
+    display: inline-block;
+    width: 50px !important;
+    height: 50px !important;
+	    border: 1px solid #000;
+
+}
+.btnwidthcss a.elementor-button-link.elementor-button.elementor-size-sm {
+    width: 100% !important;
+    padding: 0px !important;
+    min-width: 200px !important;
+    height: 60px;
+    line-height: 60px;
+}
+.logobransdcstm .brand__item-5 {
+    width: 115px !important;
+    height: 43px;
+    border: 1px solid transparent;
+    text-align: center;
+    line-height: 160px;
+    border-radius: 14px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px){
+	section.elementor-section.elementor-top-section.elementor-element.elementor-element-409318d.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default {
+    overflow: hidden;
+}
+	.mobnone {
+    display: none;
+}
+	.elementor-66 .elementor-element.elementor-element-7a37834 > .elementor-element-populated {
+    border-color: transparent;
+}
+.btnwidthcss a.elementor-button-link.elementor-button.elementor-size-sm {
+    min-width: 166px !important;
+    margin: 10px 0 !important;
+}
+	section.testimonial__area.pt-110.grey-bg-7.fix {
+    padding: 40px 0 0 0;
+}
+	.elementor-66 .elementor-element.elementor-element-006c29e > .elementor-widget-container, .elementor-66 .elementor-element.elementor-element-02d8a8d > .elementor-widget-container, .elementor-66 .elementor-element.elementor-element-b0385c0 > .elementor-widget-container{
+    margin: 0px 0px 0px 0px;
+}
+.elementor-66 .elementor-element.elementor-element-0ee240f > .elementor-widget-container {
+    margin: 0px 20px 0px 0px;
+}
+	.elementor-66 .elementor-element.elementor-element-98afc66 > .elementor-widget-container {
+    margin: 0px 20px 0px 0px;
+}
+}
